@@ -1,21 +1,41 @@
-# FC Trade Manager — Documentação
+# FC Trade Manager — Documentation
 
-Repositório central destinado à documentação técnica, especificações funcionais, arquitetura e artefatos de garantia de qualidade (QA) do projeto **FC Trade Manager**.
+[Português (BR)](README.pt-BR.md)
 
----
-
-## 📋 Visão Geral
-
-O **FC Trade Manager** é uma plataforma voltada para o gerenciamento de negociações, análise de mercado e controle de ativos no modo Ultimate Team. Este repositório concentra todo o planejamento e a rastreabilidade do ciclo de vida do desenvolvimento (SDLC).
+Central repository dedicated to technical documentation, functional specifications, system architecture, and Quality Assurance (QA) artifacts for the **FC Trade Manager** project.
 
 ---
 
-## 📁 Estrutura do Repositório
+## 📋 Overview
+
+**FC Trade Manager** is a data-driven platform designed for Ultimate Team market tracking, trade analytics, and squad/asset management. This repository centralizes project planning and Software Development Life Cycle (SDLC) traceability.
+
+---
+
+## 📁 Repository Structure
 
 ```text
 ├── docs/
-│   ├── requisitos/          # Requisitos Funcionais (RF), Não Funcionais (RNF) e Regras de Negócio (RN)
-│   ├── arquitetura/         # Diagramas de arquitetura, fluxo de dados e modelagem do banco (DER)
-│   ├── api/                 # Contratos de API, payloads e especificações de endpoints
-│   └── qa/                  # Plano de testes, cenários BDD, matriz de rastreabilidade e relatórios
-└── README.md
+│   ├── requirements/        # Functional (FR), Non-Functional (NFR), and Business Rules (BR)
+│   ├── architecture/        # Architecture diagrams, data flows, and database modeling (ERD)
+│   ├── api/                 # API contracts, payloads, and endpoint specifications
+│   └── qa/                  # Test plans, BDD scenarios, traceability matrix, and reports
+├── README.md
+└── README.pt-br.md
+```
+
+---
+
+## 🔗 Related Repositories
+
+* **Backend / API:** [Repo](https://github.com/fc-trade-manager/backend)
+* **Frontend:** [Repo](https://github.com/fc-trade-manager/frontend)
+* **E2E Testing:** [Repo](link)
+* **API Testing:** [Repo](link)
+* **Performance Testins:** [Repo](link)`
+
+---
+
+## 📌 Conventions
+
+* ...
